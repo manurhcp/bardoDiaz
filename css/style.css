@@ -12,7 +12,7 @@ html {font-size: 62.5%;}
 
 .bg{
 
-	background: linear-gradient(#F5DEB3,white); 
+	background-color: #F5DEB3; 
 	display: flex;
 	align-items: center;
 	flex-wrap: nowrap;
