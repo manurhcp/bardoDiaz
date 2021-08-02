@@ -1,0 +1,583 @@
+/*márgen general*/
+*{
+	margin: 0;
+	padding: 0;
+}
+
+/*ajuste de tamaño de letra*/
+
+html {font-size: 62.5%;}
+
+/*propiedades generales*/
+
+.bg{
+
+	background: linear-gradient(#F5DEB3,white); 
+	display: flex;
+	align-items: center;
+	flex-wrap: nowrap;
+
+}
+
+.pd{
+
+	justify-content: center;
+}
+
+.bgf{
+
+	background-color: #FFEBCD;
+	justify-content: center;
+	align-items: center;
+
+}
+
+.main{
+	
+	display: flex;
+	align-content: center;
+	justify-content: center;
+	position: relative;
+
+	
+}
+
+
+
+/*Vista mobile*/
+
+@media only screen and (min-width:0px) and (max-width:767px){
+
+
+/*Propiedades de main index mobile*/
+
+
+.logoGrandePrincipal{
+
+	display:none;
+}
+
+
+
+
+div.logo{
+
+	display: none;
+}
+
+
+
+/*Propiedades de Header Mobile*/
+
+.logoCarrito{
+
+	width: 30px;
+	margin-right: 20px;
+
+}
+
+.positionCarrito{
+
+	display: flex;
+	justify-content: center;
+}
+
+.divNav{
+
+	order: -3;
+	padding-bottom: 8px;
+	padding-left: 0;
+	display: flex;
+	justify-content: center;
+
+}
+
+.divImagen{
+
+	order: -2;
+	padding-right: 50px;
+	display: flex;
+	justify-content: center;
+}
+
+li a{
+
+	font-family: Work sans;
+	color: darkgrey;
+	font-size: 1rem;
+	font-weight: 500;
+
+}
+
+.colorCollapse{
+
+	background-color: #F5DEB3;
+	border: none;
+	color: darkgrey;
+	font-size: 1rem;
+	font-weight: 400;
+}
+
+.bg{
+
+	padding-bottom: 10px;
+	border-bottom: solid black 1px;
+
+}
+
+
+/*Propiedades del footer mobile*/
+
+
+.logoFooter{
+
+	display: none;
+}
+
+.imagenesRedes{
+
+	width: 20px;
+
+}
+
+
+.redesSociales{
+
+	display: flex;
+	justify-content: center;
+	padding: 5px;
+}
+
+.paddingIns{
+
+	margin: 10px;
+}
+
+.paddingWhat{
+
+	margin: 10px;
+}
+
+.copy{
+	
+	font-family: Work sans;
+	color: darkgrey;
+	font-size: 2rem;
+	font-weight: 400;
+	text-align: center;
+}
+
+
+
+.bgf{
+
+	border-top: solid black 1px;
+}
+
+
+/*Propiedades de main de Productos mobile*/
+
+
+.positionTitulos{
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+}
+
+.titulos{
+
+	font-family: Work sans;
+	color: darkgrey;
+	font-size: 3rem;
+	font-weight: 400;
+	margin: 3px;
+}
+
+.subtitulos{
+
+font-family: Work sans;
+	color: darkgrey;
+	font-size: 2rem;
+	font-weight: 300;
+	margin: 20px;
+
+}
+
+.positionSubtitulos{
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.margenes{
+
+	margin: 2px 2px 50px 2px;
+
+}
+
+.bordesCarrousel{
+
+	border: solid black 2px;
+	padding: 1px;
+}
+
+.footerFixed{
+
+	position: absolute;
+	bottom: 0;
+}
+
+
+/*Propiedades de main nosotros mobile*/
+
+
+.imgP{
+
+	padding: 30px;
+	
+}
+
+/*Propiedades de main contacto mobile*/
+
+.textoContacto{
+
+	font-family: Work sans;
+	color: darkgrey;
+	font-size: 1.3rem;
+	font-weight: 400;
+}
+
+
+/*Propiedades textos mobile*/
+
+.textoNosotros{
+
+ 	color: darkgrey;
+	font-family: Work sans;
+	font-size: 1.4rem;
+	text-align: center;
+	font-weight: 300;
+	padding: 20px;
+	
+ }
+
+ .positionTitulos{
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+}
+
+.titulos{
+
+	font-family: Work sans;
+	color: darkgrey;
+	font-size: 3rem;
+	font-weight: 400;
+	margin: 3px;
+}
+
+.subtitulos{
+
+font-family: Work sans;
+	color: darkgrey;
+	font-size: 2rem;
+	font-weight: 300;
+	margin: 20px;
+
+}
+
+.positionSubtitulos{
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+}
+
+
+
+
+
+
+
+/*Vista Desktop*/
+
+@media only screen and (min-width:768px){
+
+
+/*Propiedades de main index desktop*/
+
+
+div.logoGrandePrincipal{
+
+	display: flex;
+	align-items: center;
+	align-content: center;
+	justify-content: center;
+	margin-top: 50px;
+	margin-bottom: 50px;
+
+
+}
+
+
+.logoChicoPrincipal{
+
+	display: none;
+}
+
+
+/*Propiedades de main Productos desktop*/
+
+.margenes{
+
+	margin: 10px 10px 100px 10px;
+
+}
+
+.bordesCarrousel{
+
+	border: solid black 3px;
+	padding: 2px;
+}
+
+
+/*Propiedades de main Nosotros desktop*/
+
+
+
+.imgP{
+
+	padding-left: 30px;
+	padding-bottom: 30px;
+
+}
+
+/*Propiedades del main Contacto desktop*/
+
+.textoContacto{
+
+	font-family: Work sans;
+	color: darkgrey;
+	font-size: 1.3rem;
+	font-weight: 400;
+}
+
+
+/*Propiedades de header desktop*/
+
+.logoHeaderChico{
+
+	width: 200px;
+
+}
+
+.logoHeaderChico:hover{
+
+	webkit-transform: scale(1.1);
+    transform: scale(1.1)
+
+}
+
+.logoCarrito{
+
+	width: 50px;
+	margin-left: 80px;
+}
+
+.logoCarrito:hover{
+
+	webkit-transform: scale(1.1);
+    transform: scale(1.1)
+}
+
+.divImagen{
+
+	display: none;
+}
+li a{
+
+	font-family: Work sans;
+	color: darkgrey;
+	font-size: 3rem;
+	font-weight: 400;
+	margin: 30px;
+
+}
+
+
+.colorCollapse{
+
+	background-color: transparent;
+	border: none;
+	color: transparent;
+	font-size: 1.5rem;
+	font-weight: 400;
+	top: 40px;
+
+}
+
+.bg{
+
+	padding-bottom: 10px;
+	border-bottom: solid black 3px;
+
+}
+
+.position{
+
+	display: flex;
+	justify-content: center;
+}
+
+.divNav{
+	display: flex;
+	justify-content: center;
+}
+
+.logo{
+
+	display: flex;
+	justify-content: start;
+}
+
+.alturaBody{
+
+	position: relative;
+	height: 100%;
+
+}
+.main{
+
+	top: 150px;
+}
+
+/*Propiedades de footer desktop*/
+
+.copy{
+
+	padding-right: px;
+}
+
+
+.imagenesRedes{
+
+	width:40px;
+
+	
+}
+
+.redesSociales img:hover{
+
+	webkit-transform: scale(1.5);
+    transform: scale(1.5)
+}
+
+.paddingWhat{
+
+	margin: 10px;
+}
+
+.paddingIns{
+
+	margin: 10px;
+}
+
+.logoFooter{
+
+	width: 100px;
+}
+
+.logoFooter:hover{
+
+	webkit-transform: scale(1.1);
+    transform: scale(1.1)
+}
+
+
+.bgf{
+
+	border-top: solid black 3px;
+
+
+}
+
+.footerFixed{
+
+	position: absolute;
+	bottom: 0;
+}
+
+/*Propiedades textos desktop*/
+
+.positionTitulos{
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+}
+
+.titulos{
+
+	font-family: Work sans;
+	color: darkgrey;
+	font-size: 5rem;
+	font-weight: 400;
+	margin: 20px;
+}
+
+.subtitulos{
+
+font-family: Work sans;
+	color: darkgrey;
+	font-size: 4rem;
+	font-weight: 300;
+	margin: 20px;
+
+}
+
+.positionSubtitulos{
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.textoNosotros{
+
+ 	
+ 	color: darkgrey;
+	font-family: Work sans;
+	font-size: 2.2rem;
+	text-align: justify;
+	
+ }
+
+ .textoP{
+
+ 	padding-right: 40px;
+ }
+
+
+
+
+
+
+
+
+
+
+}
+
+	
+
